@@ -1,70 +1,83 @@
-# Vehicle Price Prediction
+Vehicle Price Prediction
 
-Este proyecto tiene como objetivo predecir el precio de vehículos usados utilizando técnicas de Machine Learning, comparando distintos modelos de regresión y evaluando su desempeño mediante métricas estadísticas.
+This project aims to predict used vehicle prices using Machine Learning techniques, comparing different regression models and evaluating their performance through statistical metrics.
 
-El análisis incluye:
-- Exploración y análisis descriptivo de los datos (EDA)
-- Ingeniería de características (feature engineering)
-- Transformaciones y codificación de variables categóricas
-- Entrenamiento y evaluación de múltiples modelos de regresión
+The analysis includes:
 
----
+Exploratory Data Analysis (EDA)
 
-## 📊 Dataset
+Feature engineering
 
-El modelo utiliza un dataset de precios de vehículos usados que incluye información como:
-- Marca y modelo
-- Año del vehículo
-- Kilometraje
-- Tipo de combustible, transmisión y carrocería
-- Historial de accidentes y condición
-- Precio del vehículo (variable objetivo)
+Data transformations and categorical variable encoding
 
-⚠️ **El dataset no está incluido en este repositorio** debido a restricciones de tamaño de GitHub (>100 MB).
+Training and evaluation of multiple regression models
 
-### 🔗 Fuente del dataset
-El dataset puede descargarse desde:
-- **Kaggle**:  
-  https://www.kaggle.com/datasets/metawave/vehicle-price-prediction
-Una vez descargado, debe colocarse en la siguiente ruta: data/vehicle_price_prediction.csv
+📊 Dataset
 
+The model uses a used vehicle price dataset that includes information such as:
 
----
+Make and model
 
-## 🧠 Modelos implementados
+Vehicle year
 
-Se entrenaron y compararon los siguientes modelos:
+Mileage
 
-- Regresión Lineal
-- Random Forest Regressor
-- XGBoost Regressor
-- LightGBM Regressor
+Fuel type, transmission, and body type
 
-### Métricas de evaluación
-- **R² (Coeficiente de determinación)**
-- **RMSE (Root Mean Squared Error)**
+Accident history and condition
 
-Además, se realizó un análisis de residuos para evaluar el comportamiento del error de predicción.
+Vehicle price (target variable)
 
----
+⚠️ The dataset is not included in this repository due to GitHub file size limitations (>100 MB).
 
-## 🛠️ Librerías utilizadas
+🔗 Dataset source
 
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- tensorflow
-- xgboost
-- lightgbm
+The dataset can be downloaded from:
 
----
+Kaggle:
+https://www.kaggle.com/datasets/metawave/vehicle-price-prediction
 
-## ⚙️ Instalación y entorno
+Once downloaded, it must be placed in the following path:
+data/vehicle_price_prediction.csv
 
-Se recomienda crear un entorno virtual que contenga las librerias refrenciadas anteriormente antes de ejecutar el proyecto.
+🧠 Implemented models
 
+The following models were trained and compared:
 
-  
+Linear Regression
 
+Random Forest Regressor
+
+XGBoost Regressor
+
+LightGBM Regressor
+
+Evaluation metrics
+
+R² (Coefficient of Determination)
+
+RMSE (Root Mean Squared Error)
+
+Additionally, a residual analysis was performed to evaluate prediction error behavior.
+
+🛠️ Libraries used
+
+pandas
+
+numpy
+
+matplotlib
+
+seaborn
+
+scikit-learn
+
+tensorflow
+
+xgboost
+
+lightgbm
+
+⚙️ Installation and environment setup
+
+It is recommended to create a virtual environment containing the libraries listed above before running the project.
